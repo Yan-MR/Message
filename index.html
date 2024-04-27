@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Yan Moisés Rodrigues">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Passando uma Mensagem!</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="mensagem">
+            <p>
+                <h3 style="text-align: center;font-weight: bold;">Passe uma mensagem!</h3>
+                <p style="border-bottom: 2px solid rgba(211, 211, 211, 0.5);"></p>
+            </p>
+            <p>
+              <label for="mensagem-input">Digite sua mensagem!</label>
+              <br>
+              <button style="border-radius: 5px 0 0 5px;"><i class="fa-regular fa-keyboard"></i></button><input type="text" id="mensagem-input"> 
+            </p>
+            <p>
+               <button onclick="mensagem()">Enviar</button> 
+            </p>
+            <p id="mensagem-output" style="text-align: center;text-transform: uppercase;"></p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
